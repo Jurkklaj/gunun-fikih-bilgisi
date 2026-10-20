@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Günün Fıkıh Bilgisi</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #071c16;
+      color: #f5f5f5;
+      min-height: 100vh;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 700px;
+      margin: auto;
+    }
+
+    header {
+      text-align: center;
+      margin: 30px 0;
+    }
+
+    header h1 {
+      font-size: 30px;
+      color: #d8c58a;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      color: #a9b8b2;
+      font-size: 15px;
+    }
+
+    .card {
+      background: #102a22;
+      border: 1px solid #24483b;
+      border-radius: 22px;
+      padding: 25px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+    }
+
+    .badge {
+      display: inline-block;
+      background: #d8c58a;
+      color: #102a22;
+      padding: 7px 12px;
+      border-radius: 20px;
+      font-size: 12px;
+      font-weight: bold;
+      margin-bottom: 18px;
+    }
+
+    h2 {
+      font-size: 24px;
+      margin-bottom: 18px;
+      line-height: 1.4;
+    }
+
+    .section {
+      margin-top: 22px;
+    }
+
+    .section-title {
+      color: #d8c58a;
+      font-weight: bold;
+      margin-bottom: 8px;
+    }
+
+    .section p {
+      color: #d2dbd7;
+      line-height: 1.7;
+      font-size: 15px;
+    }
+
+    .example {
+      background: #0b211a;
+      border-radius: 14px;
+      padding: 15px;
+      margin-top: 10px;
+      color: #c8d4cf;
+      line-height: 1.6;
+    }
+
+    .source {
+      border-top: 1px solid #24483b;
+      margin-top: 25px;
+      padding-top: 18px;
+      color: #8fa39b;
+      font-size: 13px;
+      line-height: 1.6;
+    }
+
+    .button {
+      width: 100%;
+      margin-top: 22px;
+      padding: 15px;
+      border: none;
+      border-radius: 14px;
+      background: #d8c58a;
+      color: #102a22;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .button:active {
+      transform: scale(0.98);
+    }
+
+    footer {
+      text-align: center;
+      margin: 25px 0 10px;
+      color: #71857d;
+      font-size: 12px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <header>
+      <h1>Günün Fıkıh Bilgisi</h1>
+      <p>Hanefî mezhebine göre günlük fıkıh bilgileri</p>
+    </header>
+
+    <div class="card">
+
+      <span class="badge">BUGÜNÜN KONUSU</span>
+
+      <h2>İstinca nedir?</h2>
+
+      <div class="section">
+        <div class="section-title">Soru</div>
+        <p>
+          Tuvalet ihtiyacından sonra temizlenmenin dinî açıdan hükmü nedir?
+        </p>
+      </div>
+
+      <div class="section">
+        <div class="section-title">Hanefî Mezhebine Göre</div>
+        <p>
+          İstinca, necasetin giderilmesi amacıyla yapılan temizliktir.
+          Temizlenmenin usulüne uygun şekilde yapılması taharet açısından önemlidir.
+        </p>
+      </div>
+
+      <div class="section">
+        <div class="section-title">Kısaca</div>
+        <div class="example">
+          Temizlik yapılırken necasetin bedenden giderilmesine dikkat edilir.
+          Su ile temizlik yapmak temizlenmenin en yaygın yollarındandır.
+        </div>
+      </div>
+
+      <div class="source">
+        <strong>Kaynaklar</strong><br>
+        Büyük İslâm İlmihali — Ömer Nasuhi Bilmen<br>
+        el-Asl — İmam Muhammed eş-Şeybânî<br>
+        TDV İslâm Ansiklopedisi<br>
+        Diyanet Din İşleri Yüksek Kurulu
+      </div>
+
+      <button class="button" onclick="anotherQuestion()">
+        Başka Soru Getir
+      </button>
+
+    </div>
+
+    <footer>
+      Günlük fıkıh bilgileri • Kaynaklı ve açıklamalı
+    </footer>
+
+  </div>
+
+  <script>
+    function anotherQuestion() {
+      alert("Bir sonraki aşamada bu düğmeyi gerçek fıkıh arşivine bağlayacağız.");
+    }
+  </script>
+
+</body>
+  </html>
